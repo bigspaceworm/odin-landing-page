@@ -1,15 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: Roboto, sans-serif;
+}
+
+.header,
+.intro-container,
+.footer {
+	background-color: #1F2937;
+	font-family: Roboto, sans-serif;
 }
 
 .header {
 	/**/
 }
 
-.title {
-	/**/
+.header-title {
+	font-size: 24px;
+	color: #F9FAF8;
+	font-weight: bold;
 }
 
 .links-header {
@@ -17,31 +29,41 @@
 }
 
 .links-header ul {
-	/**/
+	list-style: none;
 }
 
 .links-header a {
-	/**/
+	text-decoration: none;
+	font-size: 18px;
+	color: #E5E7EB;
 }
 
 .intro-container {
 	/**/
 }
 
+.intro-text-container {
+	/**/
+}
+
+.intro-title {
+	font-size: 48px;
+	font-weight: 900;
+	color: #F9FAF8;
+}
+
 .intro-text {
-	/**/
-}
-
-.intro-text.title {
-	/**/
-}
-
-.intro-text.text {
-	/**/
+	font-size: 18px;
+	color: #E5E7EB;
 }
 
 .signup-button {
-	/**/
+	background-color: #3882F6;
+	color: #F9FAF8;
+	font-size: 18px;
+	padding: 4px 20px;
+	border: none;
+	border-radius: 6px;
 }
 
 .intro-image {
@@ -53,49 +75,65 @@
 }
 
 .images-title {
-	/**/
+	color: #1F2937;
+	font-size: 36px;
+	font-weight: bolder;
 }
 
 .images-frame {
-	/**/
+	border-color: #3882F6;
+	border-width: 4px;
+	border-radius: 6px;
 }
 
 .images-footer {
-	/**/
+	color: #1F2937;
 }
 
 .quote {
-	/**/
+	background-color: #E5E7EB;
 }
 
-.quote.text {
-	/**/
+.quote-text,
+.quote-source {
+	color: #1F2937;
 }
 
- .quote.source {
-	/**/
+.quote-text {
+	font-size: 36px;
+	font-style:italic;
+	font-weight: lighter;
+}
+
+ .quote-source {
+	font-size: 24px;
+	font-weight: bold;
  }
 
  .signup-container {
-	/**/
+	background-color: #3882F6;
  }
 
  .signup-text {
 	/**/
  }
 
- .signup-text.title {
-	/**/
+ .signup-text-title {
+	color: #F9FAF8;
+	font-size: 24px;
+	font-weight: bold;
  }
 
- .signup-text.body {
-	/**/
+ .signup-text-body {
+	color: #E5E7EB;
+	font-size: 18px;
  }
 
- .signup-button.border {
-	/**/
+ .signup-button.border-button {
+	border: 2px solid #F9FAF8;
  }
 
  .footer {
-	/**/
+	color: #E5E7EB;
+	font-size: 18px;
  }
