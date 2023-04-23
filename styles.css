@@ -7,6 +7,11 @@
 	font-family: Roboto, sans-serif;
 }
 
+body {
+	display: flex;
+	flex-direction: column;
+}
+
 .header,
 .intro-container,
 .footer {
@@ -80,10 +85,9 @@
 	font-weight: bolder;
 }
 
-.images-frame {
-	border-color: #3882F6;
-	border-width: 4px;
-	border-radius: 6px;
+.images-container img {
+	border: 4px solid #3882F6;
+	border-radius: 8px;
 }
 
 .images-footer {
@@ -129,7 +133,7 @@
 	font-size: 18px;
  }
 
- .signup-button.border-button {
+.signup-container .signup-button {
 	border: 2px solid #F9FAF8;
  }
 
