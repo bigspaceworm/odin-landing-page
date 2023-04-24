@@ -127,8 +127,14 @@ body {
 	margin-top: 8px;
 }
 
-.quote {
+.quote-container {
 	background-color: #E5E7EB;
+	padding: 100px 280px;
+}
+
+.quote {
+	display: flex;
+	flex-direction: column;
 }
 
 .quote-text,
@@ -145,6 +151,8 @@ body {
  .quote-source {
 	font-size: 24px;
 	font-weight: bold;
+	margin-top: 8px;
+	align-self: flex-end;
  }
 
  .signup-container {
