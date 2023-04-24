@@ -16,11 +16,12 @@ body {
 .intro-container,
 .footer {
 	background-color: #1F2937;
-	font-family: Roboto, sans-serif;
 }
 
 .header {
-	/**/
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
 }
 
 .header-title {
@@ -35,6 +36,12 @@ body {
 
 .links-header ul {
 	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.links-header li {
+	padding: 0px 10px;
 }
 
 .links-header a {
@@ -44,11 +51,18 @@ body {
 }
 
 .intro-container {
-	/**/
+	display: flex;
+	justify-content: center;
+	padding: 80px;
+}
+
+.intro-container img {
+	width: 500px;
 }
 
 .intro-text-container {
-	/**/
+	width: 450px;
+	margin-right: 50px;
 }
 
 .intro-title {
@@ -67,6 +81,7 @@ body {
 	color: #F9FAF8;
 	font-size: 18px;
 	padding: 4px 20px;
+	margin-top: 15px;
 	border: none;
 	border-radius: 6px;
 }
